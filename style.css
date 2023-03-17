@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+body{
+    background-image: url('Bacck.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+header{
+    position: relative;
+    display: flex;
+    justify-content:space-between;
+    padding: 20px 20px;
+    align-items: center;
+ 
+}
+.logo{
+    font-size: 2em;
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    letter-spacing: 4px;
+    margin-left: 40px;
+}
+.list{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.list:nth-child(0){
+    margin-left: 0px;
+}
+.list ul{
+    display: flex;
+    font-family:  'Nunito', sans-serif;
+    color: white;
+    list-style-type: none;
+    transition: 0.1s;
+}
+.list ul li{
+    margin-left: 30px;
+    cursor: pointer;
+  
+
+}
+.list button{
+    background: transparent;
+    color: white;
+    border-style: none;
+    border:2px solid white;
+    border-radius: 5px;
+    width: 6rem;
+    height: 3rem;
+    font-size: 1.1rem;
+    font-family:  'Nunito', sans-serif;
+    font-weight: 500;
+    margin-left: 30px;
+    transition: 0.3s;
+}
+.list button:hover{
+    background-color: aliceblue;
+    color: black;
+}
+.list ul li:hover{
+    border-bottom: 2px solid white;
+}
+@media screen and(max-width:800px){
+.list{
+    display: flex;
+    flex-direction: column;
+}    
+}
+.wrapper{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    height: 400px;
+    transition:0.3s ease;
+}
+.about{
+    font-family:  'Nunito', sans-serif;
+    width:1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    backdrop-filter: blur(5px);
+    border: 2px solid white;
+    border-radius: 20px;
+}
+.about h2{
+    font-weight:bolder;
+    font-size: 30px;
+    letter-spacing: 4px;
+}
+#containt{
+    margin: 30px 70px;
+    color: rgb(241, 245, 36);
+}
+.DangerAbout{
+    display: none;
+}
+.login-block{
+    position: relative;
+    border: 2px solid whitesmoke;
+    width:400px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    backdrop-filter: blur(3px);
+    font-family: 'Ubuntu', sans-serif;
+    overflow: hidden;
+}
+
+.register-block{
+    position: relative;
+    border: 2px solid whitesmoke;
+    width:400px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    backdrop-filter: blur(3px);
+    font-family: 'Ubuntu', sans-serif;
+    overflow: hidden;
+}
+.service{
+    font-family:  'Nunito', sans-serif;
+    width:1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    backdrop-filter: blur(5px);
+    border: 2px solid white;
+    border-radius: 20px;
+}
+.service h2{
+    font-weight:bolder;
+    font-size: 30px;
+    letter-spacing: 4px;}
+.Dangerservice{
+    display: none;
+}
+.Contact{
+    font-family:  'Nunito', sans-serif;
+    width:1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    backdrop-filter: blur(5px);
+    border: 2px solid white;
+    border-radius: 20px;
+}
+.Contact h2{
+    font-weight:bolder;
+    font-size: 30px;
+    letter-spacing: 4px;
+}
+.Contactservice{
+    display: none;
+}
+h1{
+    
+    letter-spacing: 3px;
+    color: rgb(14, 8, 8);
+}
+
+.email{
+    position: relative;
+    margin: 10px;
+    font-size: 20px;
+    color: rgb(17, 9, 9);
+    width: 300px;
+    height: 60px;
+    display: flex;
+    
+}
+.wrapper.active{
+    height:460px;
+}
+.email input{
+    height: 30px;
+    width: 95%;
+    position: absolute;
+    background:transparent;
+    top:0px;
+    padding-left: 10px;
+    color: white;
+    font-weight: 300;
+    font-size: 17px;
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: 2px;
+    border: none;
+    border-bottom: 2px solid white;
+    outline: none;
+    transition: 0.7s;
+}
+
+.email label{
+    position: absolute;
+    display: flex;
+    left:5px;
+    bottom: 25px;
+    transform: translateY(-20%);
+    font-size: 1em;
+    pointer-events: none;
+}
+
+.email i{
+    position: absolute;
+    left: 16.8rem;
+    top: 5px;
+    bottom: 7px;
+    font-size: 24px;
+}
+.email input:focus{
+    top: 30px;
+}
+.remember{
+    display: flex;
+    margin-left: 15px;
+    margin-top: 0px;
+    justify-content: center;
+    height: 30px;
+    align-items: center;
+}
+.remember input:hover{
+    height: 17px;
+    width: 17px;
+}
+.remember label{
+    margin-left: 3px;
+    color: rgb(7, 6, 6);
+}
+.remember a{
+    margin-left: 8px;
+    text-decoration: none;
+    color: rgb(247, 47, 20);
+}
+.button{
+    margin: 15px 20px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button button{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 50px;
+    font-weight: 600;
+    font-family: 'Ubuntu', sans-serif;
+    border: none;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+.close-icon{
+    position: absolute;
+    font-size: 40px;
+    right: 0px;
+    top: -5px;
+    transition: 0.3s;
+}
+.close-icon:hover{
+    color: white;
+}
+h4{
+    margin: 10px auto;
+    position: absolute;
+    color: rgb(12, 8, 8);
+    left:25%;
+    letter-spacing: 1px;
+    font-weight: 200;
+}
+h4 a{
+    margin-left: 4px;
+    color: rgb(245, 29, 29);
+    font-style: italic;
+    font-weight: bold;
+}
+.danger{
+    display: none;
+}

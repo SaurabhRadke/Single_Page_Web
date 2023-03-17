@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Logo</div>
+        <div class="list">
+            <ul>
+                <li id="Home-page">Home</li>
+                <li id="about-click">About</li>
+                <li id="service-click">Services</li>
+                <li id="contact-click">Contact Us</li>
+            </ul>
+            <button class="Login-popup" id="login-btn">Login</button>
+            <button class="register-popup" id="register-btn">Register</button>
+        </div>
+    </header>
+
+    <div class="wrapper">
+        <div class="login-block danger" id="btn-login-click">
+            <span class="close-icon" id="CLOSE"><i class="fa-solid fa-rectangle-xmark"></i></span>
+            <h1>Login</h1>
+            <form action="#">
+                <div class="email">
+                    <label id="email">Email</label>
+                    <input type="email"  required>
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div class="email">
+                    <label>Password</label>
+                    <input type="password" id="password" required>
+                    <i class="fa-solid fa-lock"></i>
+                </div>
+                <div class="remember">
+                    <input type="checkbox" name="" id="">
+                    <label for="Remember">Remember Me</label>
+                    <a href="http://">Forgot Password</a>
+                </div>
+                <div class="button">
+                    <button type="submit">Log in</button>
+                </div>
+                <h4>Don't have account ? <a href="#" id="registter">Register</a></h4>
+            </form>
+        </div>
+
+        <div class="register-block danger">
+            <span class="close-icon" id="CLOSE2"><i class="fa-solid fa-rectangle-xmark"></i></span>
+            <h1>Register</h1>
+            <form action="#">
+                <div class="email">
+                    <label id="email">Username</label>
+                    <input type="email"  required>
+                    <i class="fa-solid fa-user-plus"></i>
+                </div>
+                <div class="email">
+                    <label id="email">Email</label>
+                    <input type="email"  required>
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div class="email">
+                    <label>Password</label>
+                    <input type="password" id="password" required>
+                    <i class="fa-solid fa-lock"></i>
+                </div>
+                <div class="remember">
+                    <input type="checkbox" name="" id="">
+                    <label for="Remember">I agree to all terms & conditions</label>
+                </div>
+                <div class="button">
+                    <button type="submit">Register</button>
+                </div>
+                <h4>All ready have account ? <a href="#" id="login-link">Log in</a></h4>
+            </form>
+        </div>
+        <div class="about DangerAbout">
+            <h2>About Us</h2>
+            <div id="containt">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas aperiam laborum nostrum aspernatur architecto hic in ullam, eius amet ab quia recusandae? Minima molestias repudiandae dicta earum error est voluptatem repellendus sunt, provident doloribus exercitationem harum tempore cumque ducimus culpa itaque ipsa repellat modi totam vel facilis. Dolorum nisi minus ratione laborum obcaecati necessitatibus consequatur ad beatae molestiae numquam accusamus aliquam est architecto, culpa odit nobis, corporis rem illum assumenda mollitia. Repudiandae asperiores voluptatem excepturi. Quam provident vel, totam voluptatem tenetur pariatur rerum nesciunt maxime dignissimos voluptas! Cum atque, aliquam ad minus eaque tenetur dignissimos ducimus culpa, dolorum facilis commodi amet ratione. Officia reiciendis repellendus ipsam illum accusamus autem voluptate perferendis sit culpa quisquam dolore magnam quaerat ducimus, odio, at non quae. Dolorem provident ex aspernatur cum, dignissimos esse magnam nihil, doloremque et, quisquam assumenda fugiat optio nemo sed veniam non eius cumque voluptatum! Dolorum, minima? Eius eligendi alias voluptate!
+            </div>
+        </div>
+        <div class="service Dangerservice">
+            <h2>Services</h2>
+            <div id="containt">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas aperiam laborum nostrum aspernatur architecto hic in ullam, eius amet ab quia recusandae? Minima molestias repudiandae dicta earum error est voluptatem repellendus sunt, provident doloribus exercitationem harum tempore cumque ducimus culpa itaque ipsa repellat modi totam vel facilis. Dolorum nisi minus ratione laborum obcaecati necessitatibus consequatur ad beatae molestiae numquam accusamus aliquam est architecto, culpa odit nobis, corporis rem illum assumenda mollitia. Repudiandae asperiores voluptatem excepturi. Quam provident vel, totam voluptatem tenetur pariatur rerum nesciunt maxime dignissimos voluptas! Cum atque, aliquam ad minus eaque tenetur dignissimos ducimus culpa, dolorum facilis commodi amet ratione. Officia reiciendis repellendus ipsam illum accusamus autem voluptate perferendis sit culpa quisquam dolore magnam quaerat ducimus, odio, at non quae. Dolorem provident ex aspernatur cum, dignissimos esse magnam nihil, doloremque et, quisquam assumenda fugiat optio nemo sed veniam non eius cumque voluptatum! Dolorum, minima? Eius eligendi alias voluptate!
+            </div>
+        </div>
+        <div class="Contact Contactservice">
+            <h2>Contact details</h2>
+            <div id="containt">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas aperiam laborum nostrum aspernatur architecto hic in ullam, eius amet ab quia recusandae? Minima molestias repudiandae dicta earum error est voluptatem repellendus sunt, provident doloribus exercitationem harum tempore cumque ducimus culpa itaque ipsa repellat modi totam vel facilis. Dolorum nisi minus ratione laborum obcaecati necessitatibus consequatur ad beatae molestiae numquam accusamus aliquam est architecto, culpa odit nobis, corporis rem illum assumenda mollitia. Repudiandae asperiores voluptatem excepturi. Quam provident vel, totam voluptatem tenetur pariatur rerum nesciunt maxime dignissimos voluptas! Cum atque, aliquam ad minus eaque tenetur dignissimos ducimus culpa, dolorum facilis commodi amet ratione. Officia reiciendis repellendus ipsam illum accusamus autem voluptate perferendis sit culpa quisquam dolore magnam quaerat ducimus, odio, at non quae. Dolorem provident ex aspernatur cum, dignissimos esse magnam nihil, doloremque et, quisquam assumenda fugiat optio nemo sed veniam non eius cumque voluptatum! Dolorum, minima? Eius eligendi alias voluptate!
+            </div>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/2028586b4a.js" crossorigin="anonymous"></script> 
+    <script src="script.js"></script>
+</body>
+</html>
